@@ -1,0 +1,1252 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:enterJS2017
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170622T144500Z
+DTEND:20170622T153000Z
+DTSTAMP:20170615T191208Z
+UID:C01BCE2E-0315-459E-83AC-C0E5D81C440F
+CREATED:20170615T185106Z
+DESCRIPTION:Keine Panik! Die Arbeit mit Branches ist bei Git ganz normal un
+ d vor allem auch gewollt. Branches lassen die Entwickler isoliert an ihren 
+ Features oder Bugfixes arbeiten\, bis diese abgeschlossen sind. Viele Entwi
+ ckler arbeiten bereits mit Feature Branches\, haben aber dennoch häufig Pro
+ bleme mit Git und Branches.\nUm effektiv arbeiten zu können\, ist ein detai
+ llierter Blick auf dieses Thema sehr hilfreich. Wie sind Branches in Git ab
+ gebildet und wie stehen sie in Relation zu ihren Remote Branches? Wann ist 
+ ein Rebase sinnvoll? Was habe ich bei einem Merge von Branches für Optionen
+ ? Diese und weitere Fragen werden im Rahmen dieses Vortrags beantwortet.\n\
+ nVorkenntnisse: Grundkenntnisse in Git und der Arbeit mit Branches.\nLernzi
+ ele: Ziel der Session ist ein besseres Verständnis von Branches und das Wis
+ sen darum\, wie sie sich effizient innerhalb von Git nutzen lassen. Auch di
+ e Arbeit mit Remote Branches sollte nach der Session einfacher sein.
+LAST-MODIFIED:20170615T190944Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Push\, Pull\, Branch\, Merge\, Rebase! Oh my…
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T144500Z
+DTEND:20170622T153000Z
+DTSTAMP:20170615T191208Z
+UID:997745DD-FD60-4B22-BBFC-F565CD2BCB1D
+CREATED:20170615T185119Z
+DESCRIPTION:Bei Single-Page Applications liegen Logik und Daten im Client. 
+ Während die meisten anderen SPA-Frameworks zur Strukturierung und Datenflus
+ skontrolle auf eine klassische MV*- Architektur setzen\, kommt bei React zu
+ meist die Flux-Architektur zum Einsatz. Mittlerweile gibt es unzählige Impl
+ ementierungen und einige Abwandlungen dieses Prinzips\, welche verschiedene
+  Vor- und Nachteile mit sich bringen.\nIm Vortrag werden die State-Manageme
+ nt-Bibliotheken Redux\, MobX sowie die klassische Flux-Architektur erläuter
+ t und deren jeweilige Einsatzgebiete vorgestellt.\n\nVorkenntnisse: React-G
+ rundkenntnisse.\nLernziele: Zuhörer sollen Klarheit darüber bekommen\, welc
+ he verschiedenen Möglichkeiten des State-Managements es in React gibt.
+LAST-MODIFIED:20170615T190935Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Der State liegt jetzt im Client – State Management in React
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T144500Z
+DTEND:20170622T153000Z
+DTSTAMP:20170615T191208Z
+UID:EEE49579-9E6D-4E4B-BE43-FB6E713E8280
+CREATED:20170615T184624Z
+DESCRIPTION:REST ist als Client-Server-Schnittstelle im Business-Kontext vo
+ llkommen ungeeignet. Es ist zu feingranular\, unterspezifiziert\, provozier
+ t viele HTTP-Aufrufe\, und das Caching kann dank HTTPS und im Kontext von b
+ etrieblichen Informationssystemen seine Vorteile kaum ausspielen.\nDie bess
+ ere Alternative ist Facebooks GraphQL. Es ist deklarativ\, liefert immer ge
+ nau die Daten\, die der Client haben möchte\, und stets in dem Umfang\, den
+  er auch verarbeiten will. Durch den Einsatz von JSON ist die Schnittstelle
+  für den Entwickler zudem schnell und einfach zu verstehen.\n\nVorkenntniss
+ e: Grundlegende Kenntnisse von Client-Server-Architektur\, JavaScript\, JSO
+ N und REST.\nLernziele: Der Vortrag erklärt\, wie GraphQL den Quasi-Standar
+ d REST ersetzen kann\, wie Queries aufgebaut werden\, wie Mutations funktio
+ nieren und wie sich eine API spielend einfach erkunden lässt.
+LAST-MODIFIED:20170615T190927Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:GraphQL – die bessere Schnittstelle für betriebliche Client-Server-
+ Systeme
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T135000Z
+DTEND:20170622T143500Z
+DTSTAMP:20170615T191208Z
+UID:89F74B6A-CC8F-47B4-A4CA-B5B5BE6251A8
+CREATED:20170615T184925Z
+DESCRIPTION:Der Vortrag behandelt die Einsatzmöglichkeiten von Node.js in e
+ iner OpenEmbedded-basierten Umgebung. Das umfasst einen Überblick über die 
+ Build-Verfahren\, die hier verwendet werden und sich grundlegend von den üb
+ licherweise in der JS-Entwicklung eingesetzten unterscheiden.\nDarauf aufba
+ uend wird anhand praktischer Beispiele erarbeitet\, unter welchen Umständen
+  und in welchen Formen der JavaScript-/Node.js-Einsatz hier tatsächlich gew
+ innbringend möglich\, oder eher zu vermeiden ist. Wo liegen Vorteile und Na
+ chteile gegenüber der 'klassischen' Implementierung in C/C++? Was bedeutet 
+ das für den Einsatz in einem realen Produkt?\n\nVorkenntnisse: Kein Vorwiss
+ en ist nötig\, um den Vortrag zu verstehen. Um die praktischen Themen späte
+ r selbst umsetzen zu können\, ist ein Grundverständnis von Embedded-Systeme
+ n unter Linux notwendig.\nLernziele: Die Hörer sollen praktische Hinweise u
+ nd Erfahrungswerte erhalten\, um den Einsatz von Node.js in ressourcenbesch
+ ränkten Umgebungen bewerten und gegebenenfalls umsetzen zu können.
+LAST-MODIFIED:20170615T190918Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Node.js in ressourcenbeschränkten Embedded-Linux-Umgebungen
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T135000Z
+DTEND:20170622T143500Z
+DTSTAMP:20170615T191208Z
+UID:238E55F2-BEC6-4F5E-8536-48A5369624B0
+CREATED:20170615T184939Z
+DESCRIPTION:Der Einsatz von Open-Source- beziehungsweise freier Software ge
+ hört in vielen Unternehmen zum Alltag. Nicht alle\, die sich damit beschäft
+ igen\, wissen jedoch um die rechtlichen Implikationen und Risiken. Was ist 
+ eine Lizenz? Welche Bedingungen muss ich einhalten\, wenn ich Open-Source-S
+ oftware für meine Produkte verwenden will? Und was passiert\, wenn ich Open
+ -Source-Software mit verschiedenen Lizenzen einsetzen möchte?\nDer Vortrag 
+ gibt einen Überblick über rechtliche Hintergründe und die verschiedenen Liz
+ enztypen und umreißt die wichtigsten Compliance-Themen im Zusammenhang mit 
+ Open-Source- und freier Software.\n\nVorkenntnisse: Kein spezielles Vorwiss
+ en nötig.\nLernziele: Die Teilnehmer sollen in die Lage versetzt werden\, u
+ nter rechtlichen Aspekten souverän mit Open-Source-Software umzugehen und w
+ ichtige Compliance-Themen selbst zu erkennen.
+LAST-MODIFIED:20170615T190910Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Open Source im unternehmerischen Kontext: Lizenzen und Compliance
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T135000Z
+DTEND:20170622T143500Z
+DTSTAMP:20170615T191208Z
+UID:7D71284D-1462-4026-88A1-262F83D615EF
+CREATED:20170615T185038Z
+DESCRIPTION:Mit React ist es sehr einfach\, Komponenten und Webanwendungen 
+ zu bauen. Allerdings gibt React selbst nur wenig vor\, wie eine Anwendung a
+ m besten strukturiert und in Komponenten aufgeteilt werden sollte. Daraus e
+ rgeben sich schnell Fragen: Wo halte ich den Zustand? Wie kommuniziere ich 
+ zwischen meinen Komponenten? Wie kann ich 3rd-Party-Bibliotheken\, die nich
+ t in React geschrieben sind\, in meine React-Anwendung integrieren? Und was
+  kann ich tun\, um die Performance meiner Anwendung zu erhöhen?\nIn diesem 
+ Talk werden Patterns vorgestellt\, mit denen man eine Anwendung strukturier
+ en kann\, und es wird gezeigt\, wie man 3rd-Party-Bibliotheken einbindet un
+ d die Performance einer Anwendung für die Produktion optimiert.\n\nVorkennt
+ nisse: Erste React-Kenntnisse.\nLernziele: Erlernen von Patterns\, die typi
+ scherweise in React-Anwendungen eingesetzt werden.
+LAST-MODIFIED:20170615T190902Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Fortgeschrittene Patterns für React-Anwendungen
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T124500Z
+DTEND:20170622T133000Z
+DTSTAMP:20170615T191208Z
+UID:BE7B7DE4-2A33-4E86-A941-0DFCC8A9C13F
+CREATED:20170615T184258Z
+DESCRIPTION:React Native is a rapidly-growing framework for natively render
+ ing iOS and Android applications by using JavaScript. One of the biggest ch
+ allenges nowadays is building an offline-first app. We are going to present
+  that by perfectly combining React Native with Realm. Join me in this talk 
+ to learn more.\n\nVorkenntnisse: Javascript ES6\, Basic knowledge of React 
+ Native\, Basic knowledge of Xcode\, Cloud Databases\nLernziele: Implement R
+ ealm cloud database for data sync\, JSX components\, Design patterns for Re
+ act Native\, Building process
+LAST-MODIFIED:20170615T190854Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:How to build an offline-first app with React Native and Realm
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T124500Z
+DTEND:20170622T133000Z
+DTSTAMP:20170615T191208Z
+UID:8ED7B54F-5BB4-4654-B875-BAC5B074FEF0
+CREATED:20170615T184659Z
+DESCRIPTION:Das Web startete damit\, dass Server Webseiteninhalte an eher s
+ chwache Browser sendeten. Mit dem Aufkommen von modernen Webframeworks wie 
+ Angular und deutlich stärkeren Browsern hat sich dies in Richtung clientsei
+ tigem Rendering verschoben\, wobei der Server nur noch als API genutzt wird
+ . Doch das bringt auch Nachteile mit sich\, die leicht vergessen\, aber spä
+ ter schnell bereut werden. Abhilfe schafft isomorphes JavaScript als Kombin
+ ation beider Ansätze.\nDieser Talk frischt das Client-Server-Prinzip im Zei
+ talter der SPAs auf\, erklärt den isomorphen Ansatz und beschreibt praxisna
+ h\, wie React nicht nur im Client\, sondern mit Hilfe von Node.js auch auf 
+ dem Server rendern kann.\n\nVorkenntnisse: Grundkenntnisse in React.\nLernz
+ iele: Zuhörer sollen Vor- und Nachteile von clientseitigem\, serverseitigem
+  und isomorphem Rendering in den modernen Webframeworks abwägen können und 
+ einen praktischen Einblick in isomorphes JavaScript mit React bekommen.
+LAST-MODIFIED:20170615T190846Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Isomorphes JavaScript mit ReactJS – warum und wie?
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T124500Z
+DTEND:20170622T133000Z
+DTSTAMP:20170615T191208Z
+UID:BDE04635-F824-459F-9360-411B467EA901
+CREATED:20170615T184843Z
+DESCRIPTION:Um aus HTML\, CSS und JavaScript eine Reihe von Pixeln auf dem 
+ Bildschirm zu machen\, muss im Browser eine Menge Arbeit getan werden. Leid
+ er bleibt oft nur das nebulöse Wort 'hardwarebeschleunigt'\, um zwischen gu
+ ten und weniger guten Methoden zu unterscheiden – aber was heißt das?\nIn d
+ iesem Vortrag gehen wir auf eine kleine Entdeckungsreise und schauen uns an
+ \, wie Tiles und Layers\, Compositing und Painting aus Markup endlich unser
+ e Webanwendung werden lassen und warum 'hardwarebeschleunigt' so schnell is
+ t. Wir schauen uns außerdem CSS\, Canvas 2D und WebGL an.\n\nVorkenntnisse:
+  HTML-\, CSS-\, JavaScript-Grundlagen.\nLernziele: Verständnis des Renderin
+ gprozesses und welche Methoden die Performance beeinflussen können.
+LAST-MODIFIED:20170615T190839Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Browser-Rendering-Performance verstehen
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T115000Z
+DTEND:20170622T123500Z
+DTSTAMP:20170615T191208Z
+UID:A2A6E965-3D55-450F-8663-430E6329E30F
+CREATED:20170615T184444Z
+DESCRIPTION:ECMA TC39\, the standards committee that works on the JavaScrip
+ t language\, now releases new versions of ECMAScript every year. I will cov
+ er how the new process works and briefly touch on a few awesome new languag
+ e features in the standards pipeline. New capabilities for async programmin
+ g will drastically clean up your async code. New RegExp features will bring
+  in much-missed RegExp features from other languages. JavaScript will get e
+ ven better for functional programming. And most importantly: you can help m
+ ake TC39 design these new features\, so come find out how!\n\nVorkenntnisse
+ : Basic JavaScript knowledge.\nLernziele: Learn about the standardisation p
+ rocess and upcoming JavaScript features.
+LAST-MODIFIED:20170615T190832Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Keynote: ECMAScript of the Future: ES2017 & Beyond
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T100500Z
+DTEND:20170622T105000Z
+DTSTAMP:20170615T191208Z
+UID:EB308C5B-1D89-4E4D-9E16-855ABAAF5715
+CREATED:20170615T184257Z
+DESCRIPTION:Cross-site Scripting (XSS) ist seit Bestehen der OWASP Top Ten 
+ immer auf einem der drei vorderen Plätze vertreten gewesen. Nach über einem
+  Jahrzehnt voller furchtbarer Angriffe und Probleme gibt es nun endlich Hof
+ fnung. Mit Content Security Policy (CSP) gibt es einen aktuellen Standard\,
+  der von den meisten Browsern umgesetzt wird und XSS Einhalt gebieten kann 
+ – wenn man weiß\, wie.\nDoch nicht jede Website kann von CSP profitieren\, 
+ teilweise sind erhebliche Umbauarbeiten notwendig.\nIn dieser Session werfe
+ n wir einen kurzen Blick auf den aktuellen Stand von XSS und analysieren da
+ nn alle wichtigen Aspekte von CSP\, inklusive Features\, Einschränkungen\, 
+ Einsatzmöglichkeiten und Browserunterstützung.\n\nVorkenntnisse: Kein spezi
+ elles Vorwissen nötig.\nLernziele: Entwickler sollen am Ende der Session ei
+ nschätzen können\, ob CSP eine Option für die eigene Webanwendung ist und w
+ ie viel Arbeitsaufwand erforderlich ist.
+LAST-MODIFIED:20170615T190823Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Content Security Policy – war es das mit XSS?\n\n
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T100500Z
+DTEND:20170622T105000Z
+DTSTAMP:20170615T191208Z
+UID:93998163-20BD-4F33-B97C-6B573D7DC596
+CREATED:20170615T184336Z
+DESCRIPTION:The future of web and mobile web development is promising with 
+ the release of a bunch of web APIs that will make our lives as developers m
+ uch easier.\nIn this talk\, we will start by exploring some of the web APIs
+  that were released a bit less than a year ago and then expand into the fut
+ ure.\nWe will be covering APIs that affect performance such as passive even
+ t listeners\, intersection observer\, CSS containment and many more.\n\nVor
+ kenntnisse: Attendees need to have intermediate knowledge of HTML\, CSS & J
+ avaScript.\nLernziele: The audience will learn about upcoming Web APIs (per
+ formance & other).
+LAST-MODIFIED:20170615T190814Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Web APIs you must know about in 2017
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T100500Z
+DTEND:20170622T105000Z
+DTSTAMP:20170615T191208Z
+UID:025A197E-BDFA-43B0-B0E8-C24E10FDBD55
+CREATED:20170615T184550Z
+DESCRIPTION:Performance ist ein entscheidender Faktor für den Erfolg vieler
+  moderner JavaScript-Anwendungen. Der Begriff Performance steht dabei häufi
+ g für unterschiedliche Aspekte\, wie Durchsatz\, Ladezeit oder Responsivene
+ ss der Anwendung\, und alle diese Aspekte sind in hohem Maße abhängig von O
+ ptimierungen innerhalb der JavaScript-VM. Haben Sie sich schon einmal gefra
+ gt\, welche Benchmarks JavaScript VMs für ihre Optimierungen einsetzen?\nIn
+  diesem Talk werfen wir einen Blick auf einige dieser Benchmarks\, und gebe
+ n einen Einblick in einige interessante Performance-Charakteristika aus Sic
+ ht der JavaScript-Anwendungen-VM.\nDes Weiteren werfen wir einen Blick auf 
+ die neuen Technologien\, die das V8-Team einsetzt\, um Performance von Weba
+ nwendungen zu messen\, und damit sicherzustellen\, dass Performance-Optimie
+ rungen auch wirklich diesen zugute kommen und nicht lediglich den Score auf
+  synthetischen Benchmarks in die Höhe treiben.\n\nVorkenntnisse: Grundlegen
+ de Kenntnisse der JavaScript-Sprachkonstrukte\, inklusive ES2015 und kommen
+ der Ergänzungen. Grundlegende VM-Kenntniss (Compiler\, Inline Cache\, Garba
+ ge Collection\, etc.).\nLernziele: Zuhörer sollen Einblicke in VM-Optimieru
+ ngen erhalten\, erfahren\, was möglich und unmöglich ist und warum die Ding
+ e so sind\, wie sie sind\, wenn es um JavaScript-Performance geht.
+LAST-MODIFIED:20170615T190808Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Die Mär der JavaScript-Performance
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T091000Z
+DTEND:20170622T094500Z
+DTSTAMP:20170615T191208Z
+UID:27699CDD-34B2-402C-BA98-575AF3DB4863
+CREATED:20170615T184059Z
+DESCRIPTION:Moderne JavaScript-Anwendungen verwenden OpenID Connect & OAuth
+  2.0 für die Authentifizierung von Benutzern sowie den Zugriff auf APIs. Fü
+ r den Praxiseinsatz sind ein paar Vorkenntnisse über die Protokolle und Tok
+ en-basierte Systeme notwendig. Mit diesen Grundlagen im Hinterkopf lässt si
+ ch danach einfach eine passende Client-Bibliothek auswählen\, die die 'hart
+ e Arbeit' übernimmt. Dominick Baier zeigt das Wie\, Was und Warum.\n\nVorke
+ nntnisse: Basiswissen Authentifizierung und Softwaresicherheit.\nLernziele:
+  Besucher sollen ein Verständnis für OpenID Connect und OAuth 2.0 entwickel
+ n\, um selbst in der Lage zu sein\, es einzusetzen.
+LAST-MODIFIED:20170615T190759Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OpenID Connect & OAuth 2.0 in JavaScript-Anwendungen
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T091000Z
+DTEND:20170622T094500Z
+DTSTAMP:20170615T191208Z
+UID:8A798A9E-BE07-412B-B580-82F06139E0C5
+CREATED:20170615T184116Z
+DESCRIPTION:Microservices sind eine Möglichkeit\, ein Backend in viele klei
+ ne eigenständige Services zu unterteilen\, die unabhängig voneinander entwi
+ ckelt\, deployt und skaliert werden können\, wobei das ganze System nicht z
+ usammenbricht\, wenn einzelne Services ausfallen. Und das Frontend ist ja d
+ ann trivial - oder?! Wir zeigen\, welche Probleme und Lösungen wir bei der 
+ Entwicklung von waipu.tv hatten\, und welche Alternativen es gibt. Dabei wi
+ rd sich leider herausstellen\, dass es keinen idealen Weg gibt\, sondern ei
+ ne Fülle von Optionen\, deren Vor- und Nachteile man gegeneinander abwägen 
+ muss.\n\nVorkenntnisse: Interesse an Web-Frontendarchitektur im Microservic
+ e-Umfeld.\nLernziele: Überblick geben über die architektonischen Herausford
+ erungen für Web-Frontends bei Microservices. Erfahrungen aus dem Projektall
+ tag weitergeben. Entscheidungsgrundlagen geben für eigene Projekte.
+LAST-MODIFIED:20170615T190752Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:'Das Frontend ist ja dann trivial' - Microservices und Web-Frontend
+ s
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T091000Z
+DTEND:20170622T094500Z
+DTSTAMP:20170615T191208Z
+UID:2012A8A3-451E-447F-81A5-598E37EDA092
+CREATED:20170615T184101Z
+DESCRIPTION:Besonders wegen seiner hohen Anpassbarkeit eignet sich webpack 
+ gut für Unternehmen mit einzigartigen Anwendungsfällen. Der Vortrag bietet 
+ einen Einblick in die Funktionsweise von webpack und erklärt die internen P
+ rozesse und Strukturen. Mit diesem Wissen soll es der/dem interessierten Zu
+ hörer(in) möglich sein\, zu verstehen\, ob und wie sie/er webpack für ihren
+ /seinen Anwendungsfall einsetzen und anpassen kann beziehungsweise in welch
+ e Details sie/er sich dazu einarbeiten kann.\n\nVorkenntnisse: Grundlegende
+  Kenntnisse über die Anwendung von webpack.\nLernziele: Überblick über die 
+ Funktionsweise von webpack. Kenntnis über die Möglichkeiten zur Anpassung.
+LAST-MODIFIED:20170615T190744Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Wie webpack funktioniert?
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T075500Z
+DTEND:20170622T084000Z
+DTSTAMP:20170615T191208Z
+UID:A5D5D2BD-5633-48E9-AA73-6AB45074DDEF
+CREATED:20170615T183918Z
+DESCRIPTION:Das Thema Serverless gewinnt immer mehr an Bedeutung. Die vielf
+ ältigen Einsatzmöglichkeiten erschweren die Beurteilung\, ob der Einsatz fü
+ r das eigene Projekt sinnvoll ist. In diesem Vortrag wird gezeigt\, wie sic
+ h ein Backend für eine Website mit AWS Lambda realisieren lässt. Dabei wird
+  neben dem Programmiermodell auch auf die Laufzeitumgebung und die Besonder
+ heiten von Serverless eingegangen. Erklärt werden unter anderem die Konfigu
+ ration des API Gateway\, die Anbindung an CloudFront sowie der Zugriff auf 
+ Datenbanken. Viele Tipps und Tricks für den Betrieb runden den Vortrag ab.\
+ n\nVorkenntnisse: Grundlegende Kenntnisse von HTTP (Request\, Response\, St
+ atus codes\, etc.) und Node.js (Objekte\, Callbacks\, etc.).\nLernziele: De
+ r Vortrag soll den Zuhörern das notwendige Wissen vermitteln\, um selbständ
+ ig Webanwendungen für AWS Lambda zu entwickeln und betreiben zu können.
+LAST-MODIFIED:20170615T190734Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Serverless Node.js-Webanwendungen mit AWS Lambda entwickeln
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T075500Z
+DTEND:20170622T084000Z
+DTSTAMP:20170615T191208Z
+UID:A18C1786-CC2A-4F5E-A980-AE40D475B9AE
+CREATED:20170615T183936Z
+DESCRIPTION:Front-end development is becoming increasingly complex. In the 
+ past you could just serve your CSS\, JS and image files and you were good t
+ o go. Nowadays you have single-page apps and modules and assets and images 
+ and libraries and frameworks and oh god what not.\nLet me help you with you
+ r analysis paralysis. I went through all the options for modularizing\, bun
+ dling and serving your code so you don’t have to. I’ll explain the problem 
+ and present current solutions like Webpack\, Browserify and System.js\, the
+ ir use cases\, their merits and their faults so you can stop worrying and s
+ tart coding.\n\nVorkenntnisse: Attendees need to be familiar with basic Jav
+ ascript development processes.\nLernziele: Attendees will learn about the d
+ ifferent methods to pack and prepare production ready code and assets using
+  AMD\, CommonJS\, ES2016 modules\, Webpack\, Browserify\, RequireJS\, and S
+ ystemJS.
+LAST-MODIFIED:20170615T190723Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Pack Wars: JavaScript distribution in a galaxy far\, far away
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T075500Z
+DTEND:20170622T084000Z
+DTSTAMP:20170615T191208Z
+UID:5648A99E-2685-4B12-A36E-CE1217DAC48A
+CREATED:20170615T183919Z
+DESCRIPTION:Als Entwickler ist es uns wichtig\, Metriken und Benchmarks von
+  unserem Code zu erstellen. Man weiß\, wie man die Testabdeckung erhöht ode
+ r wie man diesen einen Request noch performanter macht. Aber wie verbessert
+  man seine Conversion Rate und wie validiert man\, ob ein neues Feature ein
+  Erfolg war?\nIn diesem Vortrag erzähle ich Ihnen von meiner Reise von weni
+ g Motivation zu AB-Testing und wie man durch kleine Messergebnisse glücklic
+ h bleibt.\n\nVorkenntnisse: Kein Vorwissen nötig.\nLernziele: Ich werde Ihn
+ en eine Einführung über den statistischen Hintergrund von AB-Testing geben 
+ sowie Best Practices vorstellen.
+LAST-MODIFIED:20170615T190711Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Messe was du entwickelst – Eine Einführung ins AB-Testing
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T070000Z
+DTEND:20170622T074500Z
+DTSTAMP:20170615T191208Z
+UID:C787C8A7-085E-44A7-B1BA-24515AD8DB9C
+CREATED:20170615T183721Z
+DESCRIPTION:Bei der Entwicklung von Single-Page Apps haben Entwickler bei d
+ er verwendeten Technologie die Qual der Wahl. Meist fällt die Entscheidung 
+ auf eines der zahlreichen JavaScript-Frameworks\, ohne das Produkt zuvor hi
+ nreichend analysiert zu haben. Was genau sind eigentlich Single Page Apps? 
+ Braucht man immer ein Framework? Und wie entscheidet man sich eigentlich fü
+ r eine Technologie?\nDieser Talk schaut hinter die Kulissen von SPAs und be
+ leuchtet gängige Konzepte und Patterns. Im Anschluss wird per Live Coding g
+ ezeigt\, wie sich SPAs ohne Frameworks mit ES2015+ entwickeln lassen.\n\nVo
+ rkenntnisse: Grundlegende JavaScript-Kenntnisse.\nLernziele: Teilnehmer sol
+ len die Prinzipien und Patterns hinter Single Page Apps kennenlernen und Ei
+ nblick in die Implementierung von SPAs mit ES2015+ erhalten.
+LAST-MODIFIED:20170615T190654Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Single-Page Apps – Ein Framework-agnostischer Ansatz
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T070000Z
+DTEND:20170622T074500Z
+DTSTAMP:20170615T191208Z
+UID:B74E4434-0950-4CAE-AD57-C404CEEC7A74
+CREATED:20170615T183738Z
+DESCRIPTION:Für kaum eine andere Programmiersprache gibt es ein so feingran
+ ulares Ökosystem von teilweise sehr kleinen und spezialisierten Paketen wie
+  für Node.js. Das hat sowohl Vor- als auch Nachteile.\nIn unserem Projekt e
+ ntwickeln wir Software für eingebettete Systeme in Autos. Der Vortrag soll 
+ einen Einblick darüber geben\, was hier die Herausforderungen sind und was 
+ speziell im Unternehmensumfeld zu beachten ist. Der Themenschwerpunkt liegt
+  dabei auf dem Umgang mit Open-Source-Lizenzen und den damit verbundenen He
+ rausforderungen\, insbesondere im Kontext der Mikropaketierung in Node.js. 
+ Die Frage lautet: Wie können die Open-Source-Lizenzen verwaltet werden?\n\n
+ Vorkenntnisse: Basiswissen über Node.js und npm.\nLernziele: Der Vortrag ze
+ igt einige Fallstricke in der Entwicklung mit Node.js auf. Dabei soll haupt
+ sächlich für den richtigen Umgang mit Open Source sensibilisiert werden.
+LAST-MODIFIED:20170615T190643Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Package dependencies: The good\, the bad\, the ugly
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T070000Z
+DTEND:20170622T074500Z
+DTSTAMP:20170615T191208Z
+UID:62C2E1F9-2421-432C-9369-46FE07C65873
+CREATED:20170615T183722Z
+DESCRIPTION:Are you willing to go the extra mile to make your UX shiny and 
+ joyful? Most of us developers underestimate the importance of the Human-Com
+ puter Interaction. Join this talk for web developer-friendly UX patterns th
+ at you can start using in your everyday code.\nIn this talk\, we will explo
+ re the best of both worlds: Nicole will talk about UX best practices to mak
+ e your product much more powerful\, and Jad will explain the technical pers
+ pective behind each one by using the newest techniques of the modern web. W
+ e will cover topics like performance\, mobile optimization\, offline experi
+ ences & more.\n\nVorkenntnisse: Basic front-end development.\nLernziele: Th
+ e audience will learn developer-friendly best practices of user experience 
+ to build powerful products.
+LAST-MODIFIED:20170615T190634Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UX patterns for web developers
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T152500Z
+DTEND:20170621T161000Z
+DTSTAMP:20170615T191208Z
+UID:8D388635-1AF7-440E-AF96-3D95610140E6
+CREATED:20170615T182807Z
+DESCRIPTION:Was bedeutet Barrierefreiheit für Websites? Warum ist das Thema
+  wichtig und was sind die Vorteile für Website-Betreiber? Nach welchen Krit
+ erien wird Barrierefreiheit im Web gemessen und beurteilt und wie kann man 
+ diese Kriterien in den Entwicklungsprozess einfließen lassen und umsetzen?\
+ nAll diese Fragen möchte ich in dieser Grundlagen-Session zum Thema Website
+ -Barrierefreiheit klären.\n\nVorkenntnisse: Kein Vorwissen nötig.\nLernziel
+ e: Zuhörer sollen am Ende des Vortrags Barrierefreiheit verstehen und die K
+ riterien im Entwicklungsprozess von Webprojekten berücksichtigen und umsetz
+ en können.
+LAST-MODIFIED:20170615T190621Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Website-Barrierefreiheit verstehen und umsetzen
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T152500Z
+DTEND:20170621T161000Z
+DTSTAMP:20170615T191208Z
+UID:FBB443F8-59E3-4F0F-9033-9DD4DB4631A2
+CREATED:20170615T182837Z
+DESCRIPTION:const x: bool = '1'\;// This type is incompatible with boolean.
+ \nDer Trend\, JavaScript-Code mit (strikten) Typen anzureichern\, hält an. 
+ So hat Facebook mit Flow ein Tool gebaut\, um JavaScript-Code optional mit 
+ Typedefinitionen zu versehen. Ob es darum geht\, die IDE bei der Autovervol
+ lständigung zu unterstützen\, die Anzahl der Tests zu reduzieren oder wirkl
+ ich den Code sicherer zu machen\, Flow macht es möglich. Gewusst wie!\nVon 
+ simpler Annotation bis hin zum Erstellen komplexer Typen\, Realtime Type Ch
+ ecking und schnellem Feedback – in diesem Vortrag werde ich ein wenig von d
+ en Erfahrung mit Flow aus dem letzten Jahr erzählen und echte Szenarien\, G
+ renzfälle und auch Fragen diskutieren.\n\nVorkenntnisse: JavaScript\, viell
+ eicht etwas Typisierung und Neugier.\nLernziele: Zuhörer sollen eine Vorste
+ llung der realen Einsatzmöglichkeiten von Flow erhalten und lernen\, es in 
+ Frage zu stellen\, um eine Grundlage für eine Entscheidung für oder gegen d
+ en Einsatz von Flow zu bekommen.
+LAST-MODIFIED:20170615T190610Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Flowtype – strikte JavaScript-Typisierung\, in beliebiger Dosis
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T152500Z
+DTEND:20170621T161000Z
+DTSTAMP:20170615T191208Z
+UID:B58B7BDD-F700-4C4D-8AB3-82A378F4B1D5
+CREATED:20170615T182810Z
+DESCRIPTION:Neural nets are sparklingly fascinating. Maybe there are less s
+ parkles at first\, but they definitely become great once you get to underst
+ and the nets.\nIn this talk\, I would like to take you through my personal 
+ journey of learning Neural Nets and Machine Learning and spread the excitem
+ ent bug to all of you. I will explain what Neural Nets are\, give some exam
+ ples\, talk about how they learn and\, with the help of the demo gods\, bui
+ ld a 'Hello World' example from scratch.\n\nVorkenntnisse: No previous know
+ ledge necessary.\nLernziele: Hopefully the talk will spread excitement abou
+ t neural nets and give you some ideas on how to incorporate them into your 
+ own projects.
+LAST-MODIFIED:20170615T190559Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:An introduction to neural nets and Machine Learning with JS
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T143000Z
+DTEND:20170621T151500Z
+DTSTAMP:20170615T191208Z
+UID:7F4996C9-E7AC-4608-8E3B-60E11F606505
+CREATED:20170615T182658Z
+DESCRIPTION:Vortragssprache wird nach Rücksprache mit dem Publikum bestimmt
+  / Talk will be held in German or English\, depending on the audience's wis
+ hes!\n\n'I come to proclaim that there is a land of three dimensions'\, sai
+ d the perfect circle to the two-dimensional Mr. Square in one of my favorit
+ e novels 'Flatland' by Edwin A. Abott.\nIt's 2017 and Mr. Square's and my d
+ ream has finally come true: virtual reality devices are ready to delight a 
+ large audience. Fortunately there are not only proprietary tools to built V
+ R experiences\, but there is also an experimental API for the browser.\nMy 
+ talk will give you an overview of the WebVR ecosystem\, beginning with a sh
+ ort introduction of the basic VR concepts\, like head tracking sensors\, im
+ portance of the field of view and how stereoscopic images simulate three di
+ mensions in your brain. You will also see the current status of the WebVR A
+ PI in action with some code samples of a 360 degree video for VR and – of c
+ ourse – fallbacks for incompatible devices. Which leads to another importan
+ t point of this talk: the struggles of creating VR applications today. Ther
+ e are a lot of unanswered questions\, e.g. UX design challenges\, input dev
+ ices\, motion sickness or browser support. This is why the talk ends with m
+ y advice on how to create responsible applications\, that won't harm your u
+ sers – neither physically nor psychologically.\n\nVorkenntnisse: No special
+  previous knowledge needed.\nLernziele: You will learn how virtual reality 
+ in the web works and which APIs and frameworks you can use\, to create resp
+ onsible WebVR applications.
+LAST-MODIFIED:20170615T190538Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Goodbye Flatland! An introduction to WebVR and what it means for we
+ b developers
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T143000Z
+DTEND:20170621T151500Z
+DTSTAMP:20170615T191208Z
+UID:E6F6AB83-49D4-49AA-A5E9-0CC3D7153FE3
+CREATED:20170615T182714Z
+DESCRIPTION:Bei einer Architektur mit vielen Microservices sind gute End-2-
+ End- und Smoke-Tests unerlässlich\, um sicherzustellen\, dass alle Komponen
+ ten reibungslos zusammenspielen. Gleichzeitig gibt es bei Node.js in diesem
+  Bereich bisher wenige Standard-Module und -Vorgehensweisen.\nIm Vortrag wi
+ rd vorgestellt\, welches System von Tests wir bei Shopgate nutzen\, um dies
+ em Problem zu begegnen: von Unit- über Integrations- und End-2-End- bis hin
+  zu Smoke-Tests . Neben der Auswahl nützlicher npm-Module wird dargestellt\
+ , wie docker-compose uns bei der Arbeit hilft (lokal und in der Cloud).\n\n
+ Vorkenntnisse: Grundverständnis von Node.js\, der Microservices-Architektur
+  und Docker.\nLernziele: Zuhörer sollen lernen\, wie sich mit den richtigen
+  Modulen und Docker mit überschaubarem Aufwand verschiedene Arten von Tests
+  für ein System aus Node.js-Microservices entwickeln lassen.
+LAST-MODIFIED:20170615T190531Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Test all the things – eine Testpyramide für Node.js-Microservices
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T143000Z
+DTEND:20170621T151500Z
+DTSTAMP:20170615T191208Z
+UID:8902D4F7-A4CF-46F1-A44F-02F2EA1EAF47
+CREATED:20170615T182700Z
+DESCRIPTION:Eine der größten Diskussionen in der Welt der Programmiersprach
+ en dreht sich um deren Typsysteme. TypeScript ist Microsofts Versuch\, Java
+ Script mit einem stärkeren Typsystem auszustatten und dabei alle Fraktionen
+  glücklich zu halten.\nWir werden nicht in die endlose Debatte eintauchen u
+ nd uns stattdessen darauf konzentrieren\, wann TypeScript Sinn macht und wi
+ e Sie noch heute TypeScript in Ihrem Projekt nutzen können.\n\nVorkenntniss
+ e: Grundlegende JavaScript-Kenntnisse.\nLernziele: Zuhörer sollen in diesem
+  Talk die verschiedenen Aspekte von TypeScript kennenlernen und lernen\, wi
+ e man sowohl ein neues Projekt damit beginnt als auch alte nach TypeScript 
+ umzieht.
+LAST-MODIFIED:20170615T190521Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Los geht's mit TypeScript!
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T131500Z
+DTEND:20170621T140000Z
+DTSTAMP:20170615T191208Z
+UID:5D9E2F2C-98F3-4665-ADA2-EE0B6FD14CC7
+CREATED:20170615T182604Z
+DESCRIPTION:Ahead-of-Time-Compiling (AOT-Compiling) lagert viele Aufgaben\,
+  die Angular 2 sonst beim Programmstart erledigen müsste\, in die Build-Pha
+ se aus. Das Ergebnis ist eine schnellere\, aber auch schlankere Anwendung. 
+ In Kombination mit Tree-Shaking lässt sich die Größe der auszuliefernden Bu
+ ndles weiter drastisch verringern.\nIn dieser Session erfahren Sie anhand e
+ iner Angular-Anwendung\, was sich hinter diesen Konzepten verbirgt und wie 
+ Sie damit die Leistung Ihrer Anwendungen optimieren können.\n\nVorkenntniss
+ e: SPA-Grundlagen werden vorausgesetzt. Angular-Grundlagen sind von Vorteil
+ \, aber nicht zwingend nötig.\nLernziele: Entwickler erfahren\, was AOT und
+  Tree Shaking ist und wie man beides durchführen kann.
+LAST-MODIFIED:20170615T190511Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Schnellere Single-Page Applications mit AOT und Tree Shaking am Bei
+ spiel einer Angular-Anwendung
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T131500Z
+DTEND:20170621T140000Z
+DTSTAMP:20170615T191208Z
+UID:7C523491-A6FD-475C-9C7C-B463C5BD7A4E
+CREATED:20170615T182538Z
+DESCRIPTION:Vue.js tritt als modernes Webframework an\, das einen einfachen
+  Einstieg bietet und modulare Anwendungen ermöglicht. Inzwischen liegt Vers
+ ion 2 vor\, und über 45.000 Github-Sterne zeigen seine Beliebtheit. Der Vor
+ trag stellt die Konzepte von Vue.js vor\, wie einfache und fortgeschrittene
+  Anwendungen aussehen können\, und welche Werkzeuge für Entwickler vorliege
+ n. Er basiert auf den Erfahrungen\, die wir mit dem Einsatz von Vue.js 1 un
+ d der Migration auf Vue.js 2 gesammelt haben.\n\nVorkenntnisse: Grundlegend
+ e JavaScript-Kenntnisse.\nLernziele: Zuhörer sollen die Konzepte hinter Vue
+ .js kennenlernen und es nach dem Vortrag besser einschätzen können. Außerde
+ m werden Erfahrungen vom Update-Prozess geteilt.
+LAST-MODIFIED:20170615T190502Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Vue.js - klare Konzepte\, vielseitig\, performant
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T131500Z
+DTEND:20170621T140000Z
+DTSTAMP:20170615T191208Z
+UID:78D3C445-BB08-4562-9688-CEF5BBCAB846
+CREATED:20170615T182515Z
+DESCRIPTION:Dass sich ein JavaScript-Objekt versiegeln oder einfrieren läss
+ t\, dürfte weithin bekannt sein. Aber das Metamodell von JavaScript hat noc
+ h weit mehr zu bieten: Mit Hilfe des standardisierten Proxy-Objekts lassen 
+ sich nämlich alle Herzenswünsche erfüllen\, die auch über die eines Bibliot
+ heksentwicklers hinaus gehen.\nDeshalb zeigt dieser Vortrag\, was das Proxy
+ -Objekt alles leistet und wozu man es auch als normalsterblicher Entwickler
+  einsetzen kann\, um die eigene Software sicherer\, robuster und flexibler 
+ zu machen.\n\nVorkenntnisse: Rudimentäre Kenntnisse in JavaScript.\nLernzie
+ le: Den Teilnehmern soll vermittelt werden\, wie das Proxy-Objekt arbeitet 
+ und welchen konkreten Nutzen dessen Einsatz bietet.
+LAST-MODIFIED:20170615T190455Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Stellvertretungsberechtigt – das JS-Proxy-Objekt
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T122000Z
+DTEND:20170621T130500Z
+DTSTAMP:20170615T191208Z
+UID:4DAF2B55-1F8D-4153-A9DE-166818AD083A
+CREATED:20170615T182225Z
+DESCRIPTION:Viele Teams und Unternehmen streben nach einem modernen Entwick
+ lungsprozess. Leider mangelt es jedoch häufig an Wissen und Erfahrung\, wie
+  ein solcher im Detail funktioniert. Übrig bleiben viele Fragen: Wie wichti
+ g ist das Verwenden von Feature-Branches? Wie steht es um Continuous-Deploy
+ ment? Welche Rolle spielt die Cloud? Und Kanban? Alle diese Fragen beantwor
+ tet Golo Roden in dieser Session. Er fügt die vielen kleinen Puzzleteile zu
+  einem großen Bild zusammen und erklärt\, wie ein moderner Softwareentwickl
+ ungsprozess aussieht\, wie man ihn umsetzt\, und worauf es dabei zu achten 
+ gilt.\n\nVorkenntnisse: Bereitschaft für unbequeme Veränderung\, die die ei
+ gene Komfortzone gefährden könnte ...\nLernziele: Verständnis und Wissen\, 
+ wie und warum moderne Softwareentwicklung funktioniert.
+LAST-MODIFIED:20170615T190446Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Wie geht eigentlich Softwareentwicklung?
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T122000Z
+DTEND:20170621T130500Z
+DTSTAMP:20170615T191208Z
+UID:242DCD71-40C6-46CD-829D-C374E92F3D4A
+CREATED:20170615T182158Z
+DESCRIPTION:Dynamic analysis tools can help us locate bugs and understand t
+ he behavior of our code. Beyond just observing execution in a debugger\, we
+  can access past program states and look for an explanation for the behavio
+ r we observed.\nThis talk will explain what dynamic analysis is\, show how 
+ to build dynamic analysis tools\, and give examples of the insights they ca
+ n provide.\n\nVorkenntnisse: A good understanding of JavaScript.\nLernziele
+ : At the end of the talk\, attendees will understand dynamic analysis tools
+  and when to use them in practice.
+LAST-MODIFIED:20170615T190432Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Understanding JavaScript-code through dynamic analysis
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T103500Z
+DTEND:20170621T112000Z
+DTSTAMP:20170615T191208Z
+UID:82F7C3E5-AE58-4F98-B5B0-5CEEFF5F1A6B
+CREATED:20170615T182058Z
+DESCRIPTION:On March 31\, 2016\, NPR launched a production web app built wi
+ th Angular 2\, which was still in beta at the time\; the final\, stable rel
+ ease of v2.0 went live on September 14.\nAs early adopters\, we faced chall
+ enges ranging from convincing internal stakeholders to put our fates in the
+  hands of a pre-release framework\, to collaborating with a different team 
+ that was using React\, to making technical design decisions while navigatin
+ g API changes and incomplete documentation.\nCome learn what we love the mo
+ st about Angular\, the best resources for getting started\, what we would d
+ o differently if we were to start all over again\, and why we think you mig
+ ht want to consider using it for your next project.\n\nVorkenntnisse: This 
+ talk is most appropriate for those not yet familiar with Angular\, but it i
+ ncludes lessons learned from running a production app for one year\, which 
+ is useful if you already have Angular experience.\nLernziele: This talk tea
+ ches the differences between versions 1 and 2\, the core design principles 
+ for Angular apps\, the best ways to get started\, and lessons learned from 
+ running a production app for one year.
+LAST-MODIFIED:20170615T190424Z
+LOCATION:EnglishRaum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:From bleeding edge to state of the art: One year with Angular
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T103500Z
+DTEND:20170621T112000Z
+DTSTAMP:20170615T191208Z
+UID:BA088FB5-54A2-4886-83DE-B3ABFDA175C6
+CREATED:20170615T182020Z
+DESCRIPTION:Beim Bauen von Software werden tolle Technologien\, Programmier
+ sprachen und Tools eingesetzt. Das ist gut und richtig. Aber leider wird da
+ bei oft aus den Augen verloren\, dass das Entscheidende nicht die Technik\,
+  sondern die Fachlichkeit ist. Wenn wir in der Software nicht das fachliche
+  Modell abbilden\, wird sie unseren Anwendern nicht bei Ihrer Arbeit helfen
+ . Davor schützt uns keine Technologie der Welt.\nUm das zu verhindern\, zei
+ gt dieser Vortrag\, wie man die Architektur so baut\, dass sie die Fachlich
+ keit darstellt\, und wie Domain Driven Design und Microservices dabei helfe
+ n können.\n\nVorkenntnisse: Ein Jahr Programmiererfahrung.\nLernziele: Entw
+ ickler sollen ein grundlegendes Verständnis von DDD erhalten und dessen Vor
+ teile erkennen.
+LAST-MODIFIED:20170615T190415Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:It’s all about the domain – Erfahrungen aus 10 Jahren Domain Driven
+  Design
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T103500Z
+DTEND:20170621T112000Z
+DTSTAMP:20170615T191208Z
+UID:66D51DEB-8E75-47D7-81CF-A8A4DD0BAEF9
+CREATED:20170615T181928Z
+DESCRIPTION:Das Web entwickelt sich stetig weiter. Bluetooth\, Offline-Mögl
+ ichkeiten\, sogar 'Virtual Reality' sind inzwischen im Browser möglich und 
+ mobile Geräte sind weit mehr als nur ein Trend. Bedeutet das\, dass Desktop
+ -Applikationen nun überflüssig sind?\nIch denke nicht! Die meisten von uns 
+ verbringen immerhin mehr als 8 Stunden vor ihrem Rechner. Und dank Electron
+  kann man nun auch Desktop-Apps einfach in HTML\, CSS und JavaScript verfas
+ sen.\nIn diesem Talk schauen wir\, wie schwer es wirklich ist\, eine Deskto
+ p-App mit Web-Technologie zu schreiben.\n\nVorkenntnisse: Grundlegendes Nod
+ e.js- und Frontend-Wissen.\nLernziele: Zuhörer sollen Electron kennenlernen
+  und sehen\, wie einfach sich damit Cross-Plattform-Desktop-Anwendungen ers
+ tellen lassen.
+LAST-MODIFIED:20170615T190406Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Am Smartphone arbeiten? Electron all the things!
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T094000Z
+DTEND:20170621T102500Z
+DTSTAMP:20170615T191208Z
+UID:C3E144E4-3299-41AC-83DE-5BD5A7EF42B8
+CREATED:20170615T181905Z
+DESCRIPTION:Neue Schnittstellen erweitern das Web Tag für Tag um mehr Funkt
+ ionalität. In diesem Vortrag werden diverse neue APIs gezeigt\, die fast al
+ le noch hinter Browser-Flags versteckt sind. So werden zum Beispiel Web Blu
+ etooth\, Web USB\, Payment Request API und einige mehr erläutert und anhand
+  einiger Code-Beispiele und Live-Demos veranschaulicht. Außerdem wird gezei
+ gt\, wie mit Chrome Origin Trials neue Web APIs bereits heute auch mit eine
+ r breiten Masse an Benutzer getestet werden können.\n\nVorkenntnisse: Grund
+ legende Kenntnisse in JavaScript.\nLernziele: Zuhörer lernen in diesem Vort
+ rag die grundlegende Funktionsweise diverser neuer Web APIs und mögliche Ei
+ nsatzgebiete kennen.
+LAST-MODIFIED:20170615T190355Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:#neuland
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T094000Z
+DTEND:20170621T102500Z
+DTSTAMP:20170615T191208Z
+UID:2FEB159C-E338-40A0-A627-9E97C4F19F51
+CREATED:20170615T181822Z
+DESCRIPTION:Großunternehmen müssen sich der Herausforderung stellen\, ihre 
+ IT-Systeme zukunftsfähig zu halten. So werden User-Clients immer häufiger a
+ ls Web-Clients umgesetzt.\nDie LVM Versicherung wagt nun den Schritt\, ihre
+ n selbst entwickelten\, vollintegrierten und monolithischen Java-Swing-Clie
+ nt schrittweise durch SPA-Clients für die Versicherungssparten abzulösen. D
+ abei ist das Beibehalten einer sehr guten User Experience auch während der 
+ Ablösung für die ca. 10.600 Mitarbeiter äußerst wichtig.\nDieser Vortrag so
+ ll den eingeschlagenen Weg zu einem zukunftsfähigen Architekturansatz und s
+ eine Herausforderungen beschreiben und die ersten Erfahrungen aus den entwi
+ ckelnden Teams vorstellen.\n\nVorkenntnisse: Vertrautheit mit Softwarearchi
+ tektur im Unternehmensumfeld.\nLernziele: Ziel ist es\, zu zeigen\, wie ein
+ e SPA mit Angular in große\, gewachsene Unternehmensstrukturen integriert w
+ ird. Es sollen der Entscheidungsprozess und Alternativen der Integration ve
+ rdeutlicht werden.
+LAST-MODIFIED:20170615T190346Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Die Desktopanwendung ist tot\, lang lebe die Single-Page Applicatio
+ n – ein Umstellungsbericht der LVM Versicherung
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T094000Z
+DTEND:20170621T102500Z
+DTSTAMP:20170615T191208Z
+UID:F6AD9D67-25A6-46B1-8AD0-5FC20B87071A
+CREATED:20170615T181755Z
+DESCRIPTION:Callbacks\, Events oder Promises? Oder doch yield mit Generator
+ funktionen? Oder auf ES7 warten? Und wenn: nativ oder mit Library? Das Prob
+ lem: Sie müssen sich für irgendetwas entscheiden\, wissen aber nicht\, waru
+ m Sie gerade dieses oder jenes Konzept wählen sollten. Diese Session erklär
+ t und vergleicht die verschiedenen Ansätze und kann Ihnen im Alltag eine we
+ rtvolle Entscheidungshilfe bieten.\n\nVorkenntnisse: Interesse an JavaScrip
+ t\, Neugier auf asynchrone Programmierung.\nLernziele: Das Ziel ist eine En
+ tscheidungshilfe\, wann man welches asynchrone Programmiermodell verwenden 
+ sollte.
+LAST-MODIFIED:20170615T190337Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Asynchrones JavaScript in fünf Varianten
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T082500Z
+DTEND:20170621T090000Z
+DTSTAMP:20170615T191208Z
+UID:pi60qligj2h8s8rbbmm8a1vbqs@google.com
+CREATED:20170614T085640Z
+DESCRIPTION:AngularJS 1 war in den letzten Jahren eines der am meisten verw
+ endeten Frameworks für SPAs. Mit Angular 2 und den darauf folgenden Version
+ en steht seit einiger Zeit der Nachfolger bereit. Für viele Entwickler und 
+ Projektmanager stellen sich jetzt die Fragen: Upgrade? Und wenn ja\, wie? \
+ nDieser Vortrag gibt einen Überblick über die Möglichkeiten\, eine AngularJ
+ S-1.x-Anwendung schrittweise zu migrieren\, und beantwortet Fragen\, die da
+ bei auftauchen: Baut man TypeScript ein? Wie sieht es mit Build-Systemen au
+ s? Kann ich den Angular-2-Coding-Style in meiner AngularJS-1.x-Anwendung ve
+ rwenden? Wie kann ich AngularJS 1 und Angular 2 parallel einsetzen? Außerde
+ m wird gezeigt\, welche Stolpersteine auftreten können und wie man trotzdem
+  zum Ziel kommt.\n\nVorkenntnisse: AngularJS-1- und Angular-Grundwissen.\nL
+ ernziele: Zuhörer sollen einen Überblick darüber erhalten\, wie eine Migrat
+ ion aussehen kann.
+LAST-MODIFIED:20170615T190328Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:AngularJS-1-Anwendungen nach Angular 2.x migrieren
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T082500Z
+DTEND:20170621T090000Z
+DTSTAMP:20170615T191208Z
+UID:khkmmh5oud6cs8jlslnsim4j1g@google.com
+CREATED:20170614T085608Z
+DESCRIPTION:Streamline your products by having a single build and deploy pi
+ peline to ship a single app for the Web Android and a myriad of other platf
+ orms. By taking advantage of the Web's ubiquity and new features in the bro
+ wser the Web can provide a powerful platform delivering your apps to a very
+  wide range of devices. This talk aims introduce the Web App Manifest\, Ser
+ vice Workers for making websites work offline and adding Push Notifications
+ .\n\nVorkenntnisse: Web technologies such as HTML and JavaScript.\nLernziel
+ e: By the end of the talk\, users should feel comfortable to build a web ap
+ p or add app-like functionality to their existing website.
+LAST-MODIFIED:20170615T190319Z
+LOCATION:Raum Spectrum B
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Using the web to build your app.
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T082500Z
+DTEND:20170621T090000Z
+DTSTAMP:20170615T191208Z
+UID:5gavik05pdlu8km78s632giu9c@google.com
+CREATED:20170614T085537Z
+DESCRIPTION:In alten Technologien geschriebene CRUD-Anwendungen sind in die
+  Jahre gekommen und machen uns das Leben schwer. Die Zeit ist reif für skal
+ ierbare und elastische Architekturen\, die Unternehmen zugleich auch auf di
+ e Cloud vorbereiten. Eine solche Architektur ist CQRS\, deren Umsetzung all
+ erdings gar nicht so leicht fällt. Es gilt zahlreiche Hürden zu meistern\, 
+ konzeptioneller wie technischer Natur: CAP\, Eventual Consistency\, Streams
+ \, Asynchronität – das sind nur einige der Aspekte\, die heikel werden könn
+ en. Golo Roden erklärt Ihnen in dieser Session\, wie Sie CQRS angehen\, wor
+ auf es zu achten gilt und wie Sie die auftretenden Probleme meistern.\n\nVo
+ rkenntnisse: Erfahrung mit JavaScript und Node.js\, Interesse an Architektu
+ r\, Frontend- und Backend-Entwicklung.\nLernziele: In kürzerer Zeit bessere
+  Software schreiben\, die den Anforderungen des Kunden tatsächlich gerecht 
+ wird.\n
+LAST-MODIFIED:20170615T190309Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Verteilte Architektur für Unternehmen
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T154000Z
+DTEND:20170622T160000Z
+DTSTAMP:20170615T191208Z
+UID:D8C5DA9E-667C-41DB-9F3A-B39A17503F2E
+CREATED:20170615T185203Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T185203Z
+LOCATION:Raum Spectrum A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Keynote: Verabschiedung
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T133000Z
+DTEND:20170622T135000Z
+DTSTAMP:20170615T191208Z
+UID:DAC5E370-CF86-4C1D-853C-233174FD89F3
+CREATED:20170615T184637Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T184739Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kaffeepause
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T105000Z
+DTEND:20170622T115000Z
+DTSTAMP:20170615T191208Z
+UID:1A03FEE7-D1F8-4B99-A21F-02292AD30D53
+CREATED:20170615T184446Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T184446Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Mittagspause
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170622T084000Z
+DTEND:20170622T091000Z
+DTSTAMP:20170615T191208Z
+UID:2A53972F-B205-4259-A86B-756C418BFB0D
+CREATED:20170615T184039Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T184039Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kaffeepause
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T161000Z
+DTEND:20170621T191000Z
+DTSTAMP:20170615T191208Z
+UID:74280231-4EEA-443A-A453-0B9687B4704D
+CREATED:20170615T182922Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T182922Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Abendprogramm
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T140000Z
+DTEND:20170621T143000Z
+DTSTAMP:20170615T191208Z
+UID:iet7kn93hqa2tb2kqq0it6sf9k@google.com
+CREATED:20170614T090021Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T182630Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kaffeepause
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T091000Z
+DTEND:20170621T094000Z
+DTSTAMP:20170615T191208Z
+UID:288327CB-2C7A-4730-84D0-7EC434352580
+CREATED:20170615T182616Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T182616Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kaffeepause
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T122000Z
+DTEND:20170621T130500Z
+DTSTAMP:20170615T191208Z
+UID:28328DCD-0193-43CF-B98B-CCF4D00B88C5
+CREATED:20170615T182306Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T182306Z
+LOCATION:Raum Spectrum C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TBD
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T112000Z
+DTEND:20170621T122000Z
+DTSTAMP:20170615T191208Z
+UID:14E0E26C-0EA9-40AB-BA72-84E813EE6ABD
+CREATED:20170615T182131Z
+DESCRIPTION:
+LAST-MODIFIED:20170615T182131Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Mittagspause
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170621T073000Z
+DTEND:20170621T081500Z
+DTSTAMP:20170615T191208Z
+UID:28d49dpgsnm5148g6hgec6i56s@google.com
+CREATED:20170614T085445Z
+DESCRIPTION:"Value your freedom or you will lose it\, teaches history. 'Don
+ 't bother us with politics'\, respond those who don't want to learn."\n-Ric
+ hard M. Stallman\n\nMany tech media publications have happily declared that
+  Open Source is eating the software world and it's hard to deny that the on
+ ce 'too political' software principle is successfully spreading\, among ind
+ ividual practitioners and enterprise organizations alike. Yet still today\,
+  'Keep your politics out of my code' is a common rallying cry amongst devel
+ opers.\n\nIn this talk\, I'll define Open Source Software as a deeply polit
+ ical practice\, with social and economic implications. In doing so\, I'll a
+ ddress my role as Individual Membership Director on the Node.js Foundation 
+ Board of Directors and the work that is currently being done to improve and
+  sustain the Node.js Open Source Community.\n\nVorkenntnisse: No special pr
+ ior knowledge necessary.\nLernziele: Attendees will leave this talk with a 
+ new perspective on software development\, and\, armed with a toolkit of def
+ initions and strategies\, be prepared to take a more political role as open
+  source developers.\n
+LAST-MODIFIED:20170614T085445Z
+LOCATION:Open Source Software
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:An Exaggeration\, But Only Sort Of: Governance\, Politics\, and Sus
+ tainability in Open Source Software
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
